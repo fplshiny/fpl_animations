@@ -15,7 +15,6 @@ end_gw <- 38
 player_limit <- 30
 league_code <- 314 #overall league
 
-
 #set animation paramaters
 fpgw <- 10 #frames per GW
 fps <- 10 #frames per second
