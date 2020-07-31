@@ -96,4 +96,4 @@ make_barchart_race(title = league$league$name,
                    end_pause = end_pause)
 
 #save to local directory
-anim_save("overall.gif")
+gganimate::anim_save("overall.gif")
