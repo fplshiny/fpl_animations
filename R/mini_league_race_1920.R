@@ -76,7 +76,7 @@ make_barchart_race <- function(title = "Title",
           plot.title = element_text(hjust = -0.1, size = 22),
           axis.ticks.y = element_blank(),
           axis.text.y  = element_blank(),
-          plot.margin = unit(c(2,6,2,1),"cm")) +
+          plot.margin = unit(c(2, 6, 2, 1),"cm")) +
     gganimate::transition_time(event) +
     gganimate::ease_aes('cubic-in-out')
 
@@ -84,7 +84,7 @@ make_barchart_race <- function(title = "Title",
                      nframes = fpgw * end_gw + end_pause, 
                      fps = fps, end_pause = end_pause, 
                      height = 675, 
-                     width =1200)
+                     width = 1200)
   
 }
 
